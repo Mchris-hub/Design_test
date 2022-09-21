@@ -35,8 +35,9 @@ body{
     border-radius: 28px;
     border: 0.1px solid #FFFFFF;
     font-family: normal normal bold 16px/24px Open Sans;
-    padding: 9px;
-    width: 195px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
     background-color: #0884BD;
     color: #FFFFFF;
 }
