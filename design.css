@@ -22,9 +22,10 @@ body{
 .three_buttons button{
     margin-right: 15px;
     border-radius: 20px;
-    border: white;
-    padding: 2.5px;
-    width: 45px;
+    border: 0.5px solid #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 80px;
     background-color: rgb(109, 135, 145);
     color:#FFFFFF;
     font-family: normal normal 600 10px/24px Open Sans;
@@ -32,7 +33,7 @@ body{
 .one_button button{
     
     border-radius: 28px;
-    border: 1px solid #FFFFFF;
+    border: 0.1px solid #FFFFFF;
     font-family: normal normal bold 16px/24px Open Sans;
     padding: 9px;
     width: 195px;
@@ -40,23 +41,34 @@ body{
     color: #FFFFFF;
 }
 
-.main_text p{
+.main_text {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
     font-size:46px ;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
 }
 
-.small_one p{
+.small_one {
     font-family:'Montserrat', sans-serif; 
     color: #FFFFFF;
     font-size: 18px;
     opacity: 0.75;
+    margin-bottom: 1px;
 }
-.small_two p{
+/*.small_one:first-child{
+    font-family:'Montserrat', sans-serif; 
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.75;
+}*/
+.small_two {
     font-family:'Montserrat', sans-serif; 
     color: #FFFFFF;
     font-size: 18px;
     opacity:0.75;
+    margin-top: 0px;
     
 }
